@@ -1,0 +1,367 @@
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 14 key! size: [368 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16381]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6381]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 14 key! size: [368 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16380]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6380]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 14 key! size: [368 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16379]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6379]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO nioEventLoopGroup-4-3 com.xxxtea.HedisServer - A Client Connected address: [/127.0.0.1:65184]
+ERROR nioEventLoopGroup-8-1 com.xxxtea.cluster.ClusterClient - Failed to connect to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-8-2 com.xxxtea.cluster.ClusterClient - Connected to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-6-1 com.xxxtea.handler.MasterHandler - A Slave Node Connected address: [127.0.0.1:6381]
+INFO nioEventLoopGroup-8-2 com.xxxtea.handler.ReplicationHandler - first sync 14 keys
+ERROR nioEventLoopGroup-8-1 com.xxxtea.cluster.ClusterClient - Failed to connect to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-8-2 com.xxxtea.cluster.ClusterClient - Connected to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-6-2 com.xxxtea.handler.MasterHandler - A Slave Node Connected address: [127.0.0.1:6380]
+INFO nioEventLoopGroup-8-2 com.xxxtea.handler.ReplicationHandler - first sync 14 keys
+INFO defaultEventExecutorGroup-2-1 com.xxxtea.handler.CommandHandler - Client Command: [set bbc a] cost: [0毫秒]
+INFO nioEventLoopGroup-8-2 com.xxxtea.handler.ReplicationHandler - part sync 1 commands
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 14 key! size: [368 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16380]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6380]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO nioEventLoopGroup-8-1 com.xxxtea.cluster.ClusterClient - Connected to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-6-3 com.xxxtea.handler.MasterHandler - A Slave Node Connected address: [127.0.0.1:6380]
+INFO nioEventLoopGroup-8-1 com.xxxtea.handler.ReplicationHandler - first sync 15 keys
+INFO nioEventLoopGroup-8-1 com.xxxtea.handler.ReplicationHandler - part sync 1 commands, offset: 1
+INFO nioEventLoopGroup-4-3 com.xxxtea.HedisServer - A Client Connected address: [/127.0.0.1:65447]
+INFO defaultEventExecutorGroup-2-1 com.xxxtea.handler.CommandHandler - Client Command: [dbsize] cost: [0毫秒]
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 15 key! size: [390 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16381]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6381]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 15 key! size: [390 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16380]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6380]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 15 key! size: [390 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16379]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6379]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO nioEventLoopGroup-4-3 com.xxxtea.HedisServer - A Client Connected address: [/127.0.0.1:49678]
+ERROR nioEventLoopGroup-8-1 com.xxxtea.cluster.ClusterClient - Failed to connect to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-8-2 com.xxxtea.cluster.ClusterClient - Connected to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-6-1 com.xxxtea.handler.MasterHandler - A Slave Node Connected address: [127.0.0.1:6381]
+INFO nioEventLoopGroup-8-2 com.xxxtea.handler.ReplicationHandler - first sync 15 keys
+ERROR nioEventLoopGroup-8-1 com.xxxtea.cluster.ClusterClient - Failed to connect to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-8-2 com.xxxtea.cluster.ClusterClient - Connected to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-6-2 com.xxxtea.handler.MasterHandler - A Slave Node Connected address: [127.0.0.1:6380]
+INFO nioEventLoopGroup-8-2 com.xxxtea.handler.ReplicationHandler - first sync 15 keys
+INFO defaultEventExecutorGroup-2-1 com.xxxtea.handler.CommandHandler - Client Command: [set vkl sakldsad] cost: [0毫秒]
+INFO nioEventLoopGroup-8-2 com.xxxtea.handler.ReplicationHandler - part sync 1 commands, offset: 1
+INFO defaultEventExecutorGroup-2-1 com.xxxtea.handler.CommandHandler - Client Command: [set klc al] cost: [0毫秒]
+INFO nioEventLoopGroup-8-2 com.xxxtea.handler.ReplicationHandler - part sync 2 commands, offset: 3
+INFO defaultEventExecutorGroup-2-1 com.xxxtea.handler.CommandHandler - Client Command: [set 90s sla;dl] cost: [0毫秒]
+INFO nioEventLoopGroup-8-2 com.xxxtea.handler.ReplicationHandler - part sync 2 commands, offset: 5
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 15 key! size: [390 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16380]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6380]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO nioEventLoopGroup-8-1 com.xxxtea.cluster.ClusterClient - Connected to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-6-3 com.xxxtea.handler.MasterHandler - A Slave Node Connected address: [127.0.0.1:6380]
+INFO nioEventLoopGroup-8-1 com.xxxtea.handler.ReplicationHandler - first sync 17 keys
+INFO nioEventLoopGroup-8-1 com.xxxtea.handler.ReplicationHandler - part sync 5 commands, offset: 5
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 17 key! size: [443 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16379]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6379]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 17 key! size: [443 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16380]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6380]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 17 key! size: [443 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16379]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6379]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO nioEventLoopGroup-4-3 com.xxxtea.HedisServer - A Client Connected address: [/127.0.0.1:57450]
+ERROR nioEventLoopGroup-8-1 com.xxxtea.cluster.ClusterClient - Failed to connect to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-8-2 com.xxxtea.cluster.ClusterClient - Connected to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-6-1 com.xxxtea.handler.MasterHandler - A Slave Node Connected address: [127.0.0.1:6380]
+INFO defaultEventExecutorGroup-2-1 com.xxxtea.handler.CommandHandler - Client Command: [set klsa as] cost: [0毫秒]
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 17 key! size: [443 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16380]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6380]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 18 key! size: [466 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16379]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6379]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO nioEventLoopGroup-4-3 com.xxxtea.HedisServer - A Client Connected address: [/127.0.0.1:58570]
+ERROR nioEventLoopGroup-8-1 com.xxxtea.cluster.ClusterClient - Failed to connect to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-8-2 com.xxxtea.cluster.ClusterClient - Connected to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.handler.MasterHandler - A Slave Node Connected address: [127.0.0.1:6380]
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-8-2 com.xxxtea.coder.KryoDecoder - decode class: java.lang.String
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO defaultEventExecutorGroup-2-1 com.xxxtea.handler.CommandHandler - Client Command: [set name siodax] cost: [0毫秒]
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 17 key! size: [443 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16380]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6380]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 18 key! size: [469 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16379]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6379]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO nioEventLoopGroup-4-3 com.xxxtea.HedisServer - A Client Connected address: [/127.0.0.1:58772]
+ERROR nioEventLoopGroup-8-1 com.xxxtea.cluster.ClusterClient - Failed to connect to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-8-2 com.xxxtea.cluster.ClusterClient - Connected to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.handler.MasterHandler - A Slave Node Connected address: [127.0.0.1:6380]
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-8-2 com.xxxtea.coder.KryoDecoder - decode class: java.lang.String
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 17 key! size: [443 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16380]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6380]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 18 key! size: [469 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16379]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6379]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO nioEventLoopGroup-4-3 com.xxxtea.HedisServer - A Client Connected address: [/127.0.0.1:59330]
+ERROR nioEventLoopGroup-8-1 com.xxxtea.cluster.ClusterClient - Failed to connect to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-8-2 com.xxxtea.cluster.ClusterClient - Connected to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.handler.MasterHandler - A Slave Node Connected address: [127.0.0.1:6380]
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-8-2 com.xxxtea.coder.KryoDecoder - decode class: java.lang.String
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO nioEventLoopGroup-6-1 com.xxxtea.coder.KryoDecoder - decode class: com.xxxtea.cluster.ClusterRequest
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 17 key! size: [443 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16380]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6380]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 18 key! size: [469 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16379]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6379]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+ERROR nioEventLoopGroup-8-1 com.xxxtea.cluster.ClusterClient - Failed to connect to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-8-2 com.xxxtea.cluster.ClusterClient - Connected to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-6-1 com.xxxtea.handler.MasterHandler - A Slave Node Connected address: [127.0.0.1:6380]
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 17 key! size: [443 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16380]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6380]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 18 key! size: [469 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16379]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6379]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+ERROR nioEventLoopGroup-8-1 com.xxxtea.cluster.ClusterClient - Failed to connect to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-8-2 com.xxxtea.cluster.ClusterClient - Connected to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-6-1 com.xxxtea.handler.MasterHandler - A Slave Node Connected address: [127.0.0.1:6380]
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 17 key! size: [443 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16380]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6380]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 18 key! size: [469 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16379]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6379]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+ERROR nioEventLoopGroup-8-1 com.xxxtea.cluster.ClusterClient - Failed to connect to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-8-2 com.xxxtea.cluster.ClusterClient - Connected to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-6-1 com.xxxtea.handler.MasterHandler - A Slave Node Connected address: [127.0.0.1:6380]
+ERROR nioEventLoopGroup-8-2 com.xxxtea.handler.ReplicationHandler - java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 18 key! size: [469 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16379]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6379]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 17 key! size: [443 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16380]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6380]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO nioEventLoopGroup-8-1 com.xxxtea.cluster.ClusterClient - Connected to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-6-1 com.xxxtea.handler.MasterHandler - A Slave Node Connected address: [127.0.0.1:6380]
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 17 key! size: [443 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16380]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6380]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+INFO main com.xxxtea.task.RDBStoreTask - rdb init 18 key! size: [469 B] cost: [0毫秒],
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16379]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6379]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+WARN main com.xxxtea.task.RDBStoreTask - rdb file read failed cause 'serialize failed'
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16380]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6380]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+WARN main com.xxxtea.task.RDBStoreTask - rdb file read failed cause 'serialize failed'
+INFO pool-1-thread-1 com.xxxtea.cluster.ClusterServer - cluster server start [/127.0.0.1:16379]
+INFO main com.xxxtea.HedisServer - hedis server start [/127.0.0.1:6379]
+  _  _               _      _
+ | || |    ___    __| |    (_)     ___
+ | __ |   / -_)  / _` |    | |    (_-<
+ |_||_|   \___|  \__,_|   _|_|_   /__/_
+ERROR nioEventLoopGroup-8-1 com.xxxtea.cluster.ClusterClient - Failed to connect to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-8-2 com.xxxtea.cluster.ClusterClient - Connected to Master node: [127.0.0.1:6379]
+INFO nioEventLoopGroup-6-1 com.xxxtea.handler.MasterHandler - A Slave Node Connected address: [127.0.0.1:6380]

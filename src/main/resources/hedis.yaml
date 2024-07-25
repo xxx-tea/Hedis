@@ -1,0 +1,31 @@
+host: 127.0.0.1
+port: 6379
+timeout: 30000
+password: 123456
+maxClients: 100
+bigKeySize: 5MB
+
+AOF:
+  enable: true
+  path: dump.aof
+RDB:
+  enable: true
+  path: dump.rdb
+
+cluster:
+  enable: true
+  type: master_slave
+  masterNodes:
+    - 127.0.0.1:6379
+  slaveNodes:
+    - 127.0.0.1:6380
+    - 127.0.0.1:6381
+#  type: multi_master_slave
+#  masterNodes:
+#    - 127.0.0.1:6379:A
+#    - 127.0.0.1:6380:B
+#  slaveNodes:
+#    - 127.0.0.1:7000:A
+#    - 127.0.0.1:7001:A
+#    - 127.0.0.1:7002:B
+#    - 127.0.0.1:7002:B
